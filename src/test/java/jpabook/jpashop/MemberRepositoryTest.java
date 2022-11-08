@@ -10,12 +10,13 @@ import org.springframework.transaction.annotation.Transactional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
+/*
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
 @Transactional
+ */
 class MemberRepositoryTest {
-
+    /*
     @Autowired MemberRepository memberRepository;
 
     @Test
@@ -37,5 +38,6 @@ class MemberRepositoryTest {
         assertEquals(findMember, member);
 
     }
+     */
 
 }

@@ -5,9 +5,9 @@ import org.springframework.stereotype.Repository;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-@Repository
+//@Repository
 public class MemberRepository {
-
+    /*
     @PersistenceContext
     private EntityManager em;
 
@@ -19,5 +19,5 @@ public class MemberRepository {
     public Member find(Long id) {
         return em.find(Member.class, id);
     }
-
+    */
 }
